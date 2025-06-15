@@ -24,7 +24,7 @@ for i in data.index:
 
 # pydeck 표시
 st.pydeck_chart(pdk.Deck(
-    map_style="mapbox://styles/mapbox/light-v11",
+    map_style="mapbox://styles/mapbox/navigation-day-v1",
     initial_view_state=pdk.ViewState(
         latitude=35.186973,
         longitude=128.11661,
