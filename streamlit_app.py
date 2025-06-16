@@ -26,9 +26,9 @@ for i in data.index:
 st.pydeck_chart(pdk.Deck(
     map_style="mapbox://styles/mapbox/navigation-day-v1",
     initial_view_state=pdk.ViewState(
-        latitude=35.186973,
-        longitude=128.11661,
-        zoom=11
+        latitude=35.226602,
+        longitude=128.121389,
+        zoom=10
     ),
     layers=[
         pdk.Layer(
