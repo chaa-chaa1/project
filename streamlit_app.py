@@ -22,9 +22,9 @@ for i in data.index:
         "anchorY": 32
     }
 
-# pydeck 표시
+# pydeck 지도 표시 (기본 스타일)
 st.pydeck_chart(pdk.Deck(
-    map_style="mapbox://styles/mapbox/navigation-day-v1",
+    map_style=None,  # Mapbox 스타일 대신 기본 스타일 사용
     initial_view_state=pdk.ViewState(
         latitude=35.226602,
         longitude=128.121389,
