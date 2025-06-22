@@ -26,9 +26,9 @@ for i in data.index:
 st.pydeck_chart(pdk.Deck(
     map_style="light",  # Mapbox 토큰 없이 작동
     initial_view_state=pdk.ViewState(
-        latitude=35.18,
-        longitude=128.1,
-        zoom=12  # 확대
+        latitude=35.226602,
+        longitude=128.121389,
+        zoom=10 # 확대
     ),
     layers=[
         pdk.Layer(
