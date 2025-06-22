@@ -24,11 +24,11 @@ for i in data.index:
 
 # pydeck 표시
 st.pydeck_chart(pdk.Deck(
-    map_style="light",  # Mapbox 토큰 없이 작동
+    map_style="mapbox://styles/mapbox/navigation-day-v1",
     initial_view_state=pdk.ViewState(
         latitude=35.226602,
         longitude=128.121389,
-        zoom=10 # 확대
+        zoom=10
     ),
     layers=[
         pdk.Layer(
